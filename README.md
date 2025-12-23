@@ -31,6 +31,7 @@ To get the script running we will need:
 2. Apache Spark– install via Homebrew or download the binary:
 
 bash
+
 brew install apache-spark
 
 Make sure `SPARK_HOME` points to the Spark installation and `$SPARK_HOME/bin` is in your `PATH`.
@@ -38,11 +39,13 @@ Make sure `SPARK_HOME` points to the Spark installation and `$SPARK_HOME/bin` is
 4. PySpark – usually bundled with Spark, but you can install it explicitly:
 
 bash
+
 pip install pyspark
 
 5. Pandas (for the correlation step):
 
 bash
+
 pip install pandas
 
 6. A CSV file that matches the schema expected by the script (header row, comma‑separated).
@@ -50,6 +53,7 @@ pip install pandas
 Once those are in place, you can submit the job:
 
 bash
+
 spark-submit spark_ml.py pizza.csv target
 
 
