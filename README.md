@@ -60,11 +60,16 @@ spark-submit spark_ml.py pizza.csv target
 **OUTPUT
 
 Selected features: ['order_id', 'price']
+
 Accuracy : 1.0000
+
 F1‑score : 1.0000
+
 AUC      : 1.0000
 
+
 **INSIGHTS DERIVED FROM MACHINE LEARNING MODEL
+
 
 What the script does?
 1. Loads your CSV into a Spark DataFrame.
